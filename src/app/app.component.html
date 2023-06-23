@@ -1,0 +1,19 @@
+<div class="container mt-2">
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <h1>Roofing Calculator</h1>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="d-flex">
+        <input type="text" class="form-control" [(ngModel)]="address">
+        <button class="mx-2 btn btn-primary">Search</button>
+      </div>
+      <div class="mt-2">
+        <google-map [options]="mapOptions" width="auto" ></google-map>
+      </div>
+    
+    </div>
+  </div>
+</div> 
